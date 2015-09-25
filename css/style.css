@@ -1,0 +1,480 @@
+@import url(reset.css);
+#wrapper{
+	width:1024px;
+	/*height: 1800px;*/
+	margin:0 auto;
+}
+#topLines{
+	height: 18px;
+	background: #cccccc url("../images/topLine.png") repeat-x;
+}
+/* Начало блока header*/
+#header{
+	height: 157px;
+	position: relative;
+}
+#logo{
+	width: 234px;
+	height: 81px;
+	background: url("../images/logo.png") no-repeat;
+	position: absolute;
+	top: 33px;
+	left: 64px;
+}
+#logo>a{
+	height: 81px;
+}
+#logo>a, #faq>a{
+	display: block;
+	cursor: pointer;
+}
+#faq>a{
+	height: 164px;
+}
+#faq{
+	width: 82px;
+	height: 164px;
+	background: url("../images/faq.png") no-repeat;
+	position: absolute;
+	top: -18px;
+	right: 43px;
+}
+#nav{
+	width: 520px;
+	height: 30px;
+	position: absolute;
+	top: 56px;
+	left: 377px;
+}
+#nav li{
+	float: left;
+	margin: 0 27px 0 0;
+}
+#nav li a{
+	text-decoration: none;
+	color: #3f3f3f;
+	font: 16px Arial, sans-serif;
+}
+#nav li a.active, #nav li a:hover{
+	color: #2c789c;
+}
+/* Конец блока header*/
+/* Начало блока people*/
+#people{
+	height: 404px;
+	background: url("../images/people_background.jpg") no-repeat 60px 63px;
+	position: relative;
+}
+#peopleImg{
+	width: 421px;
+	height: 390px;
+	background: url("../images/people.jpg") no-repeat;
+	position: absolute;
+	left: 567px;
+	z-index: 5;
+}
+#slogan{
+	width: 345px;
+	height: 69px;
+	position: absolute;
+	top: 200px;
+	right: 632px;
+	text-align: right;
+	padding-top: 12px;
+}
+#slogan>h1{
+	font: bold 23px Arial, sans-serif;
+	color: #1d1e1b;
+	text-transform: uppercase;
+}
+#slogan>p{
+	font: 16px Arial, sans-serif;
+	color: #2c789c;
+}
+#forLine{
+	height: 93px;
+	width: 1024px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: url("../images/forLineBg.png") repeat-y;
+	z-index: 3;
+}
+/* Конец блока people*/
+/* Начало блока colors*/
+#colors{
+	background: url("../images/forLineBg.png") repeat-y;
+	padding: 0 49px 0 42px;
+	padding-top: 1px;
+	/*height: 147px;*/
+}
+#blue, #yellow, #green{
+	/*height: 134px;*/
+	padding-top: 13px;
+	float: left;
+	color: #ffffff;
+	position: relative;
+}
+#blue{
+	width: 292px;
+	background: #2c789c url("../images/e1.png") no-repeat 250px 10px;
+	padding-left: 14px;
+}
+#yellow{
+	width: 302px;
+	background: /*1-й вариант: url("../images/e4.png") no-repeat -2px 49px,*/ #e5b00d url("../images/e2.png") no-repeat 267px 10px;
+	padding-left: 19px;
+}
+#green{
+	width: 282px;
+	background: /*1-й вариант: url("../images/e5.png") no-repeat -2px 49px,*/ #97ba15 url("../images/e3.png") no-repeat 251px 10px;
+	padding-left: 24px;
+}
+/* Второй вариант начало*/
+ #romb1, #romb2{
+	width: 24px;
+	height: 49px;
+	position: absolute;
+	left: -2px;
+	top: 49px;
+}
+#romb1{
+	background: url("../images/e4.png") no-repeat;
+}
+#romb2{
+	background: url("../images/e5.png") no-repeat;
+}
+/*конец 2-го варианта*/
+#colors h2{
+	font: 19px Arial, sans-serif;
+}
+#colors h2, #colors p{
+	padding-bottom: 10px;
+}
+#colors p, #colors a{
+	font: 16px Arial, sans-serif;
+}
+#colors a{
+	text-decoration: none;
+	color: #525252;
+	display: block;
+	width: 99px;
+	height: 26px;
+	background: url("../images/readMore.png") no-repeat;
+	cursor: pointer;
+	padding: 4px 10px;
+	margin-bottom: 4px;
+}
+.clear{
+	clear: both;
+}
+#yellow a, #yellow p{
+	margin-left: 9px;
+}
+#green a , #green p{
+	margin-left: 6px;
+}
+/* Конец блока colors*/
+/* Начало черно-белого блока blackAndWhite*/
+#blackAndWhite{
+	height: 225px;
+	background: /*1-й вариант: url("../images/bBottom.png") repeat-x  bottom,*/ url("../images/forLineBg.png") repeat-y;
+	position: relative;
+	padding: 17px 55px 30px;
+}
+#bLeft, #bRight{
+	width: 36px;
+	height: 100px;
+	position: absolute;
+	bottom: 0;
+}
+#bLeft{
+	background: url("../images/bLeft.png") no-repeat;
+	left: 0;
+}
+#bRight{
+	background: url("../images/bRight.png") no-repeat;
+	right: 0;
+	z-index: 4;
+}
+/* Второй вариант начало*/
+#bBottom{
+	width: 952px;
+	height: 1px;
+	position: absolute;
+	background: url("../images/bBottom.png") repeat-x;
+	bottom: 0;
+	left: 36px;
+}
+/*конец 2-го варианта*/
+#bContent{
+	height: 225px;
+	width: 620px;
+	float: left;
+}
+#bContent h2, #bForm h2{
+	font: 24px Arial, sans-serif;
+	color: #000000;
+	height: 34px;
+	overflow: hidden;
+}
+#bContent p.strong{
+	font: bold 16px Arial, sans-serif;
+	color: #1d1e1b;
+	height: 56px;
+	overflow: hidden;
+}
+#bContent p{
+	font: 16px Arial, sans-serif;
+	color: #7b7d78;
+	height: 109px;
+	overflow: hidden;
+}
+#bContent a{
+	font: 16px Arial, sans-serif;
+	text-decoration: none;
+	color: #b6b7b6;
+	display: block;
+	width: 99px;
+	height: 18px;
+	background: url("../images/readMoreBlack.png") no-repeat;
+	cursor: pointer;
+	padding: 4px 10px;
+}
+#bForm{
+	height: 225px;
+	width: 264px;
+	float: left;
+	margin-left: 20px;
+	position: relative;
+	z-index: 5;
+}
+#bForm input{
+	width: 246px;
+	height: 31px;
+	border: 1px solid #dedede;
+	margin-bottom: 11px;
+	color: #bababa;
+	font: 16px Arial, sans-serif;
+	padding:0 0 0 15px;
+}
+#bForm input.button{
+	width: 99px;
+	height: 26px;
+	border: none;
+	padding: 33px 0 0;
+	margin: 0;
+	display: block;
+}
+/* Конец черно-белого блока blackAndWhite*/
+/* Начало черного блока dark*/
+#dark{
+	/*height: 430px;*/
+	padding: 13px 30px 14px 41px;
+	background: #1d1e1b;
+}
+#planning, #team, #blog{
+	height: 403px;
+	float: left;
+}
+#planning, #team{
+	width: 289px;
+	margin-right: 39px;
+}
+#dark h3{
+	height: 27px;
+	font: 19px Arial, sans-serif;
+	color: #ffffff;
+	text-transform: uppercase;
+	overflow: hidden;
+}
+#imgDark1, #imgDark2{
+	width: 289px;
+	height: 115px;
+}
+#imgDark1{
+	background: url("../images/dark1.jpg") no-repeat;
+}
+#imgDark2{
+	background: url("../images/dark2.jpg") no-repeat;
+}
+#planning p, #team p{
+	height: 226px;	/*235*/
+	font: 12px Arial, sans-serif;
+	color: #94998f;
+	padding-top: 9px;
+	overflow: hidden;
+}
+#planning a, #team a{
+	font: 16px Arial, sans-serif;
+	text-decoration: none;
+	color: #ffffff;
+	display: block;
+	width: 99px;
+	height: 18px;
+	background: url("../images/readMoreBlue.png") no-repeat;
+	cursor: pointer;
+	padding: 4px 10px;
+}
+#blog{
+	width: 297px;
+}
+#blog h3 span{
+	font: 16px Arial, sans-serif;
+	color: #2c789c;
+	text-transform: lowercase;
+	padding-left: 13px;
+}
+#blog h4{
+	font: bold 13px Arial, sans-serif;
+	color: #ffffff;
+}
+#blog p{
+	font: 12px Arial, sans-serif;
+	color: #94998f;
+}
+#blog a{
+	font: 12px Arial, sans-serif;
+	color: #2c789c;
+	text-decoration: underline;
+}
+#post1, #post2{
+	height: 125px;
+}
+#post3{
+	height: 126px;
+}
+#blogImg1, #blogImg2, #blogImg3{
+	width: 111px;
+	height: 81px;
+	float: left;
+	margin-right: 10px;
+}
+#blogImg1{
+	background: url("../images/dark3.jpg") no-repeat;
+}
+#blogImg2{
+	background: url("../images/dark4.jpg") no-repeat;
+}
+#blogImg3{
+	background: url("../images/dark5.jpg") no-repeat;
+}
+/* Конец черного блока dark*/
+/* Начало серого блока gary*/
+#gary{
+	/*height: 168px;*//*218-15-35=168*/
+	background: #2e302c;
+	padding: 15px 30px 35px 40px;
+}
+#gary h2{
+	font: 18px Arial, sans-serif;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin-bottom: 3px;
+	overflow: hidden;
+}
+#gary p{
+	font: 12px Arial, sans-serif;
+	color: #94998f;
+	margin-bottom: 6px;
+}
+#about{
+	width: 300px;
+	float: left;
+	margin-right: 26px;
+}
+#about a{
+	font: 16px Arial, sans-serif;
+	color: #2c789c;
+	text-decoration: none;
+}
+#partners{
+	width: 628px;
+	height: 168px;
+	float: left;
+}
+#partners ul{
+	width: 275px;
+	float: left;
+	/*list-style: outside url("../images/plus.png");*/
+}
+#partners li{
+	font: 11px Arial, sans-serif;
+	color: #94998f;
+	padding-left: 22px;
+	margin-bottom: 15px;
+	background: url("../images/plus.png") no-repeat 0 4px;
+}
+#p1{
+	margin: 0 56px 0 22px;
+}
+/* Конец серого блока gary*/
+/* Начало блока footer*/
+#footer{
+	height: 154px;
+	background: #131412;
+	position: relative;
+}
+#copy{
+	position: absolute;
+	top: 81px;
+	left: 39px;
+}
+#copy, #copy a{
+	font: 13px Arial, sans-serif;
+	color: #9b9d99;
+	text-decoration: none;
+}
+#footerNav{
+	width: 470px;
+	height: 30px;
+	position: absolute;
+	top: 81px;
+	right: 36px;
+}
+#footerNav li{
+	float: right;
+	margin: 0 0 0 23px;
+}
+#footerNav li a{
+	font: 13px Arial, sans-serif;
+	color: #94998f;
+	text-decoration: none;
+}
+#footerNav li a.active, #footerNav li a:hover{
+	color: #2c789c;
+}
+#footerSocial{
+	width: 160px;
+	height: 22px;
+	position: absolute;
+	top: 111px;
+	right: 36px;
+}
+#footerSocial li{
+	float: right;
+	margin: 0 0 0 5px;
+	height: 22px;
+}
+#s1{
+	width: 23px;
+	background: url("../images/s1.png") no-repeat;
+}
+#s2{
+	width: 27px;
+	background: url("../images/s2.png") no-repeat;
+}
+#s3{
+	width: 22px;
+	background: url("../images/s3.png") no-repeat;
+}
+#s4{
+	width: 62px;
+	background: url("../images/s4.png") no-repeat;
+}
+#footerSocial li a{
+	height: 22px;
+	display: block;
+	cursor: pointer;
+}
+/* Конец блока footer*/
